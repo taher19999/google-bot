@@ -6,7 +6,7 @@ const n = new Telegraf(process.env.token)
 n.command('start', (ctx) => {
   ctx.reply('Hai '+ctx.from.first_name+' Silahkan Ketik Kata Yang Mau Kamu Cari')
 
-n.on('message', (ctx) => { `  `
+n.on('message', (ctx) => {
     let input = ctx.message.text;
     axios.get('https://google-api.xlaaf.repl.co/search?q='+input)
     .then(res => {
