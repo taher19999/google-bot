@@ -5,7 +5,7 @@
     "telegram",
     "bot"
   ],
-  "repository": "https://github.com/nekozu/google-bot",
+  "repository": "https://github.com/taher19999/cupido-bot/",
   "env": {
     "token": {
       "description": "Bot token kamu",
